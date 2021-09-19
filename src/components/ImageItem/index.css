@@ -1,0 +1,13 @@
+.imgs {
+  width: 100px;
+  height: 100px;
+}
+.eachImage {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.nb {
+  background-color: transparent;
+  border-width: 0px;
+}

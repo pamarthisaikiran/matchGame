@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.tab {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.image {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*width: 400px;*/
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.shfimg {
+  width: 30%;
+  align-self: center;
+}
+.img-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.cardBg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  width: 50vw;
+
+  background-size: cover;
+  width: 800px;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.tro {
+  width: 50%;
+  margin-top: 300px;
+}
+.scr-p1 {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.scr-p2 {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.button {
+  background-color: #cf60c8;
+}
+.btn-sp {
+  display: flex;
+}
+.img-sp {
+  width: 50px;
+  height: 50px;
+}

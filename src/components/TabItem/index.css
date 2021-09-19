@@ -1,0 +1,17 @@
+.tab-button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+.color {
+  color: #fec653;
+  text-decoration: underline;
+  background-color: transparent;
+  border-width: 0px;
+
+  font-size: 24px;
+  font-family: 'Roboto';
+}
